@@ -7,5 +7,5 @@ const mealSchema = new Schema({
     idMeal: { type: Number, required: true },
 
 });
-const Meals = mongoose.model("Meals", mealSchema);
+const Meals = mongoose.model("MealDB", mealSchema);
 module.exports = Meals;
